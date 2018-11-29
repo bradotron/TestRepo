@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
-        <title>Test Repo</title>
+        <title>My Bio</title>
+        <!--link my css file
+        rel means relationship
+        type identifies the type of file to link
+        href is the address to the file-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
     </head>
 
     <body>
-        <h1>My first Test Page</h1>
+        <h1>My Biography Page</h1>
         <div>
-            <p>This is my test repo for whatever 
-                bananas and peanut butter.
-            </p>
+            <section class="section-float-left">
+                <h2 id="h2-name">Bradley Jensen</h2>
+                <!--insert a headshot to go with the bio-->
+                <img id="bio-img" src="pugwizard.jpeg" width="25%">
 
+            </section>
+
+            <section class="section-float-left">
+                <h2>Contact Info</h2>
+                <ul>
+                    <li>Email: bradley13@gmail.com</li>
+                    <!-- target = "_blank" makes the href open in a new browser tab/window/whatever -->
+                    <li>GitHub: <a target = "_blank" href="https://github.com/bradotron/TestRepo">bradotron</a></li>
+                </ul>
+            </section>
+
+            <section class="section-float-left">
+                <h3 class="h3-soft">here is another section heading</h3>
+                <h3 class="h3-soft">this section has a couple things in it</h3>
+            </section>
         </div>
     </body>
 
